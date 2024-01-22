@@ -28,7 +28,7 @@ export const ProjectCard = (project: ProjectCardProps) => {
               {project.technologies.join(" | ")}
             </span>
             <h2 className="mb-5 text-3xl font-extrabold">
-              My Movies DB
+              {project.title}
             </h2>
             <p className="mb-6 text-lg leading-relaxed">
               {project.description}
